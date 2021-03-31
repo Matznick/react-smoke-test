@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the same way every time 1`] = `
+<div>
+  <span>
+    The correct date is: 
+    Wed Mar 31 2021 13:46:56 GMT+0200 (Mitteleuropäische Sommerzeit)
+  </span>
+</div>
+`;
