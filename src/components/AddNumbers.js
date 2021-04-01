@@ -4,7 +4,9 @@ export const AddNumber = ({ onAdd }) => (
   <button onClick={onAdd}>Add a Number!</button>
 );
 
-export const Number = ({ value }) => <div>The value is {value}</div>;
+export const Number = ({ value }) => (
+  <div className="number-div">The value is {value}</div>
+);
 
 export class AddNumbers extends React.Component {
   state = {
